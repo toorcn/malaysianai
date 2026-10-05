@@ -109,4 +109,31 @@ export const residents: Resident[] = [
 		tags: ['Publishing', 'Content', 'Automation'],
 		tile: 'dark',
 	},
+	{
+		name: 'Tack',
+		tag: 'Real-time meeting management',
+		logo: '/tack-logo.png',
+		logoClass: 'is-wide',
+		focus: 'Productivity',
+		location: 'Kuala Lumpur',
+		cohort: '02',
+		website: 'https://tack.im',
+		description:
+			'Real-time meeting tool that catches tangents in under three seconds, captures decisions and actions live, and produces an outcome map. Tack helps founders and team leads keep recurring meetings on track without post-meeting write-up.',
+		tags: ['Meetings', 'Productivity', 'Real-time'],
+		tile: 'light',
+	},
+	{
+		name: 'CodeKite',
+		tag: 'Self-maintaining API integrations',
+		logo: '/codekite-logo.svg',
+		focus: 'Developer Tools',
+		location: 'Kuala Lumpur',
+		cohort: '02',
+		website: 'https://codekite.app',
+		description:
+			'API monitoring platform that tracks changes across API providers, finds affected code in your integrations, and prepares fixes for review. CodeKite helps engineering teams avoid unexpected breakage from provider updates.',
+		tags: ['API', 'Integration', 'Monitoring'],
+		tile: 'light',
+	},
 ];
